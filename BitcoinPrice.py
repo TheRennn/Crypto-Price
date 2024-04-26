@@ -9,4 +9,4 @@ if response.status_code == 200:
     btc_price = data['USD']
     print("Bitcoin Price:", btc_price)
 else:
-    print("Erro ao fazer solicitação à API do CryptoCompare:", response.text)
+    print("Error!", response.text)
